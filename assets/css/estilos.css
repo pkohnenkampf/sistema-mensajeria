@@ -1,0 +1,140 @@
+:root {
+    --white: #FFF;
+    --platinium: #E8EBE4; 
+    --gray: #BEC1BB;
+    --blueBell: #A491D2;
+    --soap: #CDC3E6;
+    --paleLavender: #D4DCFF;
+    --darkJungle: #1B1F21;
+    --outerSpace: #444749;
+    --oldSilver: #828485;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+ display: flex;
+ align-items: stretch;
+ min-height: 100vh;
+}
+
+.contacto {
+    width: 20%;
+    min-width: 250px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    display: flex;
+    width: 80%;
+    background-color: var(--platinium);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hand {
+    width: 20%;  
+    object-fit: cover;
+    border-radius: 8px;    
+}
+
+.texto-hand-titulo{
+    font-size: 45px;
+}
+
+.texto-hand{
+    font-size: 16px;
+}
+
+.sesion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    padding: 1rem 1.5rem;
+    border-bottom: 2px solid var(--platinium);
+}
+
+.formato-texto-color {
+    font-size: x-small;
+    color: var(--gray);
+}
+    
+.formato-imagen {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.orden-foto-sesion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.formato-iconos {
+    color: var(--oldSilver);
+}
+
+.formato-iconos:first-child {
+    margin-right: 1rem;
+}
+
+.sesion-boton {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 32px 0;
+ border-bottom: 2px solid var(--platinium);
+}
+
+button {
+   background-color: var(--blueBell);
+   font-family: Arial;
+   color: #ffffff;
+   font-size: 12px;
+   padding: 12px 16px;
+   border: 1px solid var(--blueBell);
+   width: 70%;
+}
+
+button:hover {
+    background-color: var(--soap);
+}
+
+button:focus {
+    background-color: var(--gray);
+}
+
+.formato-imagen-contactos {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.orden-contactos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    border-bottom: 2px solid var(--platinium);
+}
+
+.nombre-perfil {
+    font-size: 16px;
+}
+
+.formato-texto-mensajes {
+    font-size: x-small;
+}
